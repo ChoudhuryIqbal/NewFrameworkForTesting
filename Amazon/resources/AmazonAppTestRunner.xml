@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Potbelly client on firefox browser">
+	<parameter name="usecloud" value="false" />
+
+	<parameter name="userName" value="123nafees" />
+	<parameter name="accessKey" value=" " />
+	<parameter name="os" value="Mac" />
+	<parameter name="url" value="https://www.amazon.com/" />
+	<parameter name="browserName" value="firefox" />
+	<parameter name="browserVersion" value="50" />
+	<test name="home Page">
+		<classes>
+			<class name="Amazon.src.test.page.TestHomePage" />
+
+
+		</classes>
+
+	</test>
+
+
+
+
+</suite>
